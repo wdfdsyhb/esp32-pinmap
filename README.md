@@ -1,5 +1,7 @@
 # esp32-pinmap
 
+[![CI](https://github.com/wdfdsyhb/esp32-pinmap/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/esp32-pinmap/actions/workflows/tests.yml)
+
 **Which GPIO can you actually use?** Safe-pin lookup CLI for classic ESP32 / ESP32-S3 / ESP32-C3.
 
 查一下这根脚到底能不能用：strapping 引脚、flash/PSRAM 占用、USB-JTAG、UART0 控制台、input-only——新手"LED 不亮"的一半问题都出在挑错了脚。
